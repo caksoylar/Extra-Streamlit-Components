@@ -119,7 +119,7 @@ class CookieManager:
         st.markdown(
             """ 
             <style>
-                .element-container:has(iframe[height="0"]) { display: none; }
+                .element-container:has(iframe[title^="extra_streamlit_components"]) { display: none; }
             </style>
             """,
             unsafe_allow_html=True,
